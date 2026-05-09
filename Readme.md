@@ -6,7 +6,7 @@
 
 | Feed | Ask AI | Lawyers |
 |------|--------|---------|
-| ![Feed](screenshots/feed.png) | ![Ask AI](screenshots/askai.png) | ![Lawyers](screenshots/lawyers.png) |
+| ![Feed](screenshots/feed.png) | ![Ask AI](screenshots/profile.png) | ![Lawyers](screenshots/lawyers.png) |
 
 ## Problem Statement
 Common Indians struggle with basic legal tasks — rent agreements, consumer complaints, court cases — and can't afford lawyer fees for every small issue.
