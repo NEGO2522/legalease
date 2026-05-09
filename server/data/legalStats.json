@@ -1,0 +1,1297 @@
+{
+  "stateWiseLegalAid": [
+    {
+      "state": "Andhra Pradesh",
+      "yearWisePersons": {
+        "2006": 3007,
+        "2007": 2377,
+        "2008": 2628,
+        "2009": 2659,
+        "2010": 3256,
+        "2011": 3745,
+        "2012": 4336,
+        "2013": 4536,
+        "2014": 4123,
+        "2015 (upto Septembe r, 15)": 2708
+      }
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "yearWisePersons": {
+        "2006": 39,
+        "2007": 114,
+        "2008": 0,
+        "2009": 0,
+        "2010": 15,
+        "2011": 7,
+        "2012": 3,
+        "2013": 23,
+        "2014": 57,
+        "2015 (upto Septembe r, 15)": 133
+      }
+    },
+    {
+      "state": "Assam",
+      "yearWisePersons": {
+        "2006": 27773,
+        "2007": 15963,
+        "2008": 16741,
+        "2009": 16698,
+        "2010": 21936,
+        "2011": 2288,
+        "2012": 3748,
+        "2013": 21911,
+        "2014": 2313,
+        "2015 (upto Septembe r, 15)": 861
+      }
+    },
+    {
+      "state": "Bihar",
+      "yearWisePersons": {
+        "2006": 8753,
+        "2007": 3040,
+        "2008": 3386,
+        "2009": 3737,
+        "2010": 1258,
+        "2011": 694,
+        "2012": 796,
+        "2013": 1911,
+        "2014": 694,
+        "2015 (upto Septembe r, 15)": 1967
+      }
+    },
+    {
+      "state": "Chhattisgarh",
+      "yearWisePersons": {
+        "2006": 4248,
+        "2007": 4625,
+        "2008": 4183,
+        "2009": 3807,
+        "2010": 7892,
+        "2011": 23168,
+        "2012": 69071,
+        "2013": 62548,
+        "2014": 49230,
+        "2015 (upto Septembe r, 15)": 34705
+      }
+    },
+    {
+      "state": "Goa",
+      "yearWisePersons": {
+        "2006": 402,
+        "2007": 367,
+        "2008": 551,
+        "2009": 469,
+        "2010": 592,
+        "2011": 581,
+        "2012": 677,
+        "2013": 812,
+        "2014": 1034,
+        "2015 (upto Septembe r, 15)": 813
+      }
+    },
+    {
+      "state": "Gujarat",
+      "yearWisePersons": {
+        "2006": 8060,
+        "2007": 7902,
+        "2008": 6657,
+        "2009": 7084,
+        "2010": 7230,
+        "2011": 6243,
+        "2012": 6735,
+        "2013": 8050,
+        "2014": 10173,
+        "2015 (upto Septembe r, 15)": 8355
+      }
+    },
+    {
+      "state": "Haryana",
+      "yearWisePersons": {
+        "2006": 3494,
+        "2007": 4039,
+        "2008": 3891,
+        "2009": 3731,
+        "2010": 28360,
+        "2011": 18055,
+        "2012": 5183,
+        "2013": 7191,
+        "2014": 8954,
+        "2015 (upto Septembe r, 15)": 7172
+      }
+    },
+    {
+      "state": "Himachal Pradesh",
+      "yearWisePersons": {
+        "2006": 268,
+        "2007": 330,
+        "2008": 330,
+        "2009": 564,
+        "2010": 796,
+        "2011": 887,
+        "2012": 1245,
+        "2013": 1359,
+        "2014": 1551,
+        "2015 (upto Septembe r, 15)": 1305
+      }
+    },
+    {
+      "state": "Jammu & Kashmir",
+      "yearWisePersons": {
+        "2006": 974,
+        "2007": 663,
+        "2008": 892,
+        "2009": 644,
+        "2010": 404,
+        "2011": 560,
+        "2012": 555,
+        "2013": 1120,
+        "2014": 4927,
+        "2015 (upto Septembe r, 15)": 1956
+      }
+    },
+    {
+      "state": "Jharkhand",
+      "yearWisePersons": {
+        "2006": 340,
+        "2007": 219,
+        "2008": 904,
+        "2009": 1708,
+        "2010": 2373,
+        "2011": 1786,
+        "2012": 1374,
+        "2013": 1576,
+        "2014": 3445,
+        "2015 (upto Septembe r, 15)": 3586
+      }
+    },
+    {
+      "state": "Karnataka",
+      "yearWisePersons": {
+        "2006": 1636,
+        "2007": 1202,
+        "2008": 1200,
+        "2009": 1081,
+        "2010": 910,
+        "2011": 960,
+        "2012": 1220,
+        "2013": 4044,
+        "2014": 3128,
+        "2015 (upto Septembe r, 15)": 2537
+      }
+    },
+    {
+      "state": "Kerala",
+      "yearWisePersons": {
+        "2006": 3880,
+        "2007": 4869,
+        "2008": 8956,
+        "2009": 5451,
+        "2010": 7905,
+        "2011": 9398,
+        "2012": 10182,
+        "2013": 8802,
+        "2014": 11754,
+        "2015 (upto Septembe r, 15)": 7559
+      }
+    },
+    {
+      "state": "Madhya Pradesh",
+      "yearWisePersons": {
+        "2006": 67486,
+        "2007": 56297,
+        "2008": 73504,
+        "2009": 69336,
+        "2010": 103932,
+        "2011": 84223,
+        "2012": 68779,
+        "2013": 45645,
+        "2014": 23606,
+        "2015 (upto Septembe r, 15)": 21578
+      }
+    },
+    {
+      "state": "Maharashtra",
+      "yearWisePersons": {
+        "2006": 105808,
+        "2007": 100956,
+        "2008": 150312,
+        "2009": 182521,
+        "2010": 260414,
+        "2011": 840005,
+        "2012": 1018024,
+        "2013": 730307,
+        "2014": 290010,
+        "2015 (upto Septembe r, 15)": 5299
+      }
+    },
+    {
+      "state": "Manipur",
+      "yearWisePersons": {
+        "2006": 0,
+        "2007": 2304,
+        "2008": 0,
+        "2009": 0,
+        "2010": 9,
+        "2011": 0,
+        "2012": 1,
+        "2013": 16,
+        "2014": 67,
+        "2015 (upto Septembe r, 15)": 66
+      }
+    },
+    {
+      "state": "Meghalaya",
+      "yearWisePersons": {
+        "2006": 36,
+        "2007": 76,
+        "2008": 72,
+        "2009": 79,
+        "2010": 51,
+        "2011": 238,
+        "2012": 384,
+        "2013": 561,
+        "2014": 1064,
+        "2015 (upto Septembe r, 15)": 1686
+      }
+    },
+    {
+      "state": "Mizoram",
+      "yearWisePersons": {
+        "2006": 4188,
+        "2007": 4994,
+        "2008": 2894,
+        "2009": 2689,
+        "2010": 2751,
+        "2011": 719,
+        "2012": 2649,
+        "2013": 2782,
+        "2014": 6331,
+        "2015 (upto Septembe r, 15)": 2501
+      }
+    },
+    {
+      "state": "Nagaland",
+      "yearWisePersons": {
+        "2006": 0,
+        "2007": 143,
+        "2008": 0,
+        "2009": 295,
+        "2010": 750,
+        "2011": 1420,
+        "2012": 1745,
+        "2013": 1579,
+        "2014": 2523,
+        "2015 (upto Septembe r, 15)": 2168
+      }
+    },
+    {
+      "state": "Odisha",
+      "yearWisePersons": {
+        "2006": 2556,
+        "2007": 2476,
+        "2008": 2544,
+        "2009": 2769,
+        "2010": 3260,
+        "2011": 2936,
+        "2012": 3287,
+        "2013": 4422,
+        "2014": 3960,
+        "2015 (upto Septembe r, 15)": 2538
+      }
+    },
+    {
+      "state": "Punjab",
+      "yearWisePersons": {
+        "2006": 4240,
+        "2007": 3584,
+        "2008": 3466,
+        "2009": 3766,
+        "2010": 3735,
+        "2011": 4288,
+        "2012": 6838,
+        "2013": 11397,
+        "2014": 14203,
+        "2015 (upto Septembe r, 15)": 8716
+      }
+    },
+    {
+      "state": "Rajasthan",
+      "yearWisePersons": {
+        "2006": 7123,
+        "2007": 4020,
+        "2008": 4838,
+        "2009": 3767,
+        "2010": 4962,
+        "2011": 3454,
+        "2012": 5220,
+        "2013": 5860,
+        "2014": 6748,
+        "2015 (upto Septembe r, 15)": 5785
+      }
+    },
+    {
+      "state": "Sikkim",
+      "yearWisePersons": {
+        "2006": 386,
+        "2007": 399,
+        "2008": 442,
+        "2009": 415,
+        "2010": 567,
+        "2011": 503,
+        "2012": 568,
+        "2013": 685,
+        "2014": 848,
+        "2015 (upto Septembe r, 15)": 788
+      }
+    },
+    {
+      "state": "Tamil Nadu",
+      "yearWisePersons": {
+        "2006": 120885,
+        "2007": 113272,
+        "2008": 125803,
+        "2009": 120328,
+        "2010": 103667,
+        "2011": 133789,
+        "2012": 131602,
+        "2013": 1508166,
+        "2014": 1594777,
+        "2015 (upto Septembe r, 15)": 44823
+      }
+    },
+    {
+      "state": "Telangana *",
+      "yearWisePersons": {
+        "2006": 0,
+        "2007": 0,
+        "2008": 0,
+        "2009": 0,
+        "2010": 0,
+        "2011": 0,
+        "2012": 0,
+        "2013": 0,
+        "2014": 1508,
+        "2015 (upto Septembe r, 15)": 1601
+      }
+    },
+    {
+      "state": "Tripura",
+      "yearWisePersons": {
+        "2006": 831,
+        "2007": 875,
+        "2008": 846,
+        "2009": 1034,
+        "2010": 843,
+        "2011": 615,
+        "2012": 785,
+        "2013": 1475,
+        "2014": 2154,
+        "2015 (upto Septembe r, 15)": 1848
+      }
+    },
+    {
+      "state": "Uttar Pradesh",
+      "yearWisePersons": {
+        "2006": 4610,
+        "2007": 3262,
+        "2008": 3487,
+        "2009": 5347,
+        "2010": 2032,
+        "2011": 2964,
+        "2012": 2905,
+        "2013": 2541,
+        "2014": 1736,
+        "2015 (upto Septembe r, 15)": 1096
+      }
+    },
+    {
+      "state": "Uttarakhand",
+      "yearWisePersons": {
+        "2006": 736,
+        "2007": 320,
+        "2008": 4069,
+        "2009": 1112,
+        "2010": 296,
+        "2011": 269,
+        "2012": 448,
+        "2013": 598,
+        "2014": 730,
+        "2015 (upto Septembe r, 15)": 851
+      }
+    },
+    {
+      "state": "West Bengal",
+      "yearWisePersons": {
+        "2006": 6389,
+        "2007": 6304,
+        "2008": 5321,
+        "2009": 4900,
+        "2010": 5311,
+        "2011": 6576,
+        "2012": 7720,
+        "2013": 5706,
+        "2014": 7310,
+        "2015 (upto Septembe r, 15)": 5429
+      }
+    },
+    {
+      "state": "Andaman and Nicobar Islands",
+      "yearWisePersons": {
+        "2006": 22,
+        "2007": 0,
+        "2008": 0,
+        "2009": 73,
+        "2010": 13,
+        "2011": 858,
+        "2012": 152,
+        "2013": 97,
+        "2014": 45,
+        "2015 (upto Septembe r, 15)": 67
+      }
+    },
+    {
+      "state": "Chandigarh",
+      "yearWisePersons": {
+        "2006": 370,
+        "2007": 642,
+        "2008": 534,
+        "2009": 489,
+        "2010": 347,
+        "2011": 565,
+        "2012": 595,
+        "2013": 721,
+        "2014": 963,
+        "2015 (upto Septembe r, 15)": 944
+      }
+    },
+    {
+      "state": "Dadra and Nagar Haveli",
+      "yearWisePersons": {
+        "2006": 0,
+        "2007": 0,
+        "2008": 0,
+        "2009": 2,
+        "2010": 10,
+        "2011": 2,
+        "2012": 0,
+        "2013": 2,
+        "2014": 961,
+        "2015 (upto Septembe r, 15)": 971
+      }
+    },
+    {
+      "state": "Daman and Diu",
+      "yearWisePersons": {
+        "2006": 0,
+        "2007": 0,
+        "2008": 0,
+        "2009": 0,
+        "2010": 0,
+        "2011": 0,
+        "2012": 8,
+        "2013": 245,
+        "2014": 200,
+        "2015 (upto Septembe r, 15)": 0
+      }
+    },
+    {
+      "state": "Delhi",
+      "yearWisePersons": {
+        "2006": 11768,
+        "2007": 12946,
+        "2008": 8890,
+        "2009": 10406,
+        "2010": 12814,
+        "2011": 15976,
+        "2012": 20056,
+        "2013": 31681,
+        "2014": 43869,
+        "2015 (upto Septembe r, 15)": 25104
+      }
+    },
+    {
+      "state": "Lakshadweep",
+      "yearWisePersons": {
+        "2006": 0,
+        "2007": 0,
+        "2008": 0,
+        "2009": 0,
+        "2010": 1,
+        "2011": 1,
+        "2012": 0,
+        "2013": 0,
+        "2014": 0,
+        "2015 (upto Septembe r, 15)": 0
+      }
+    },
+    {
+      "state": "Puducheery",
+      "yearWisePersons": {
+        "2006": 543,
+        "2007": 2604,
+        "2008": 6398,
+        "2009": 4557,
+        "2010": 8146,
+        "2011": 12155,
+        "2012": 4859,
+        "2013": 4665,
+        "2014": 2196,
+        "2015 (upto Septembe r, 15)": 576
+      }
+    },
+    {
+      "state": "Supreme Court Legal Services Committee.",
+      "yearWisePersons": {
+        "2006": 956,
+        "2007": 1029,
+        "2008": 906,
+        "2009": 983,
+        "2010": 368,
+        "2011": 773,
+        "2012": 1059,
+        "2013": 146,
+        "2014": 0,
+        "2015 (upto Septembe r, 15)": 0
+      }
+    }
+  ],
+  "indiansInForeignJails": [
+    {
+      "country": "Argentina",
+      "indiansInJail": 3,
+      "deathSentence": 0
+    },
+    {
+      "country": "Armenia",
+      "indiansInJail": 8,
+      "deathSentence": 0
+    },
+    {
+      "country": "Austria",
+      "indiansInJail": 5,
+      "deathSentence": 0
+    },
+    {
+      "country": "Australia",
+      "indiansInJail": 81,
+      "deathSentence": 0
+    },
+    {
+      "country": "Azerbaijan",
+      "indiansInJail": 3,
+      "deathSentence": 0
+    },
+    {
+      "country": "Bahrain",
+      "indiansInJail": 178,
+      "deathSentence": 0
+    },
+    {
+      "country": "Belarus",
+      "indiansInJail": 3,
+      "deathSentence": 0
+    },
+    {
+      "country": "Bangladesh",
+      "indiansInJail": 90,
+      "deathSentence": 0
+    },
+    {
+      "country": "Belgium",
+      "indiansInJail": 12,
+      "deathSentence": 0
+    },
+    {
+      "country": "Bhutan",
+      "indiansInJail": 84,
+      "deathSentence": 0
+    },
+    {
+      "country": "Botswana",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Brunei",
+      "indiansInJail": 3,
+      "deathSentence": 0
+    },
+    {
+      "country": "Cambodia",
+      "indiansInJail": 5,
+      "deathSentence": 0
+    },
+    {
+      "country": "Canada",
+      "indiansInJail": 23,
+      "deathSentence": 0
+    },
+    {
+      "country": "Chile",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "China",
+      "indiansInJail": 180,
+      "deathSentence": 0
+    },
+    {
+      "country": "Congo",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Colombia",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Cote D\u0092 Ivoire",
+      "indiansInJail": 5,
+      "deathSentence": 0
+    },
+    {
+      "country": "Cuba",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Cyprus",
+      "indiansInJail": 22,
+      "deathSentence": 0
+    },
+    {
+      "country": "Denmark",
+      "indiansInJail": 4,
+      "deathSentence": 0
+    },
+    {
+      "country": "Egypt",
+      "indiansInJail": 2,
+      "deathSentence": 1
+    },
+    {
+      "country": "Equador",
+      "indiansInJail": 3,
+      "deathSentence": 0
+    },
+    {
+      "country": "Fiji",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "France",
+      "indiansInJail": 35,
+      "deathSentence": 0
+    },
+    {
+      "country": "Germany",
+      "indiansInJail": 98,
+      "deathSentence": 0
+    },
+    {
+      "country": "Ghana",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Greece",
+      "indiansInJail": 22,
+      "deathSentence": 0
+    },
+    {
+      "country": "Guatemala",
+      "indiansInJail": 2,
+      "deathSentence": 0
+    },
+    {
+      "country": "Indonesia",
+      "indiansInJail": 19,
+      "deathSentence": 1
+    },
+    {
+      "country": "Iran",
+      "indiansInJail": 89,
+      "deathSentence": 0
+    },
+    {
+      "country": "Iraq",
+      "indiansInJail": 4,
+      "deathSentence": 0
+    },
+    {
+      "country": "Ireland",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Israel",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Italy",
+      "indiansInJail": 205,
+      "deathSentence": 0
+    },
+    {
+      "country": "Japan",
+      "indiansInJail": 8,
+      "deathSentence": 0
+    },
+    {
+      "country": "Jordan",
+      "indiansInJail": 7,
+      "deathSentence": 0
+    },
+    {
+      "country": "Korea (Republic of)",
+      "indiansInJail": 9,
+      "deathSentence": 0
+    },
+    {
+      "country": "Kuwait",
+      "indiansInJail": 460,
+      "deathSentence": 5
+    },
+    {
+      "country": "Kyrgyzstan",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Laos PDR",
+      "indiansInJail": 2,
+      "deathSentence": 0
+    },
+    {
+      "country": "Lebanon",
+      "indiansInJail": 5,
+      "deathSentence": 0
+    },
+    {
+      "country": "Liberia",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Madagascar",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Malaysia",
+      "indiansInJail": 396,
+      "deathSentence": 50
+    },
+    {
+      "country": "Maldives",
+      "indiansInJail": 19,
+      "deathSentence": 0
+    },
+    {
+      "country": "Mali",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Mauritius",
+      "indiansInJail": 4,
+      "deathSentence": 0
+    },
+    {
+      "country": "Mexico",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Morocco",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Mozambique",
+      "indiansInJail": 6,
+      "deathSentence": 0
+    },
+    {
+      "country": "Myanmar",
+      "indiansInJail": 78,
+      "deathSentence": 0
+    },
+    {
+      "country": "Nepal",
+      "indiansInJail": 1039,
+      "deathSentence": 0
+    },
+    {
+      "country": "New Zealand",
+      "indiansInJail": 13,
+      "deathSentence": 0
+    },
+    {
+      "country": "Nigeria",
+      "indiansInJail": 0,
+      "deathSentence": 0
+    },
+    {
+      "country": "Oman",
+      "indiansInJail": 58,
+      "deathSentence": 0
+    },
+    {
+      "country": "Pakistan",
+      "indiansInJail": 621,
+      "deathSentence": 1
+    },
+    {
+      "country": "Philippines",
+      "indiansInJail": 36,
+      "deathSentence": 0
+    },
+    {
+      "country": "Poland",
+      "indiansInJail": 10,
+      "deathSentence": 0
+    },
+    {
+      "country": "Portugal",
+      "indiansInJail": 5,
+      "deathSentence": 0
+    },
+    {
+      "country": "Qatar",
+      "indiansInJail": 403,
+      "deathSentence": 1
+    },
+    {
+      "country": "Rwanda",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Russia",
+      "indiansInJail": 13,
+      "deathSentence": 0
+    },
+    {
+      "country": "Saudi Arabia",
+      "indiansInJail": 1570,
+      "deathSentence": 11
+    },
+    {
+      "country": "Senegal",
+      "indiansInJail": 4,
+      "deathSentence": 0
+    },
+    {
+      "country": "Singapore",
+      "indiansInJail": 60,
+      "deathSentence": 0
+    },
+    {
+      "country": "Slovakia",
+      "indiansInJail": 2,
+      "deathSentence": 0
+    },
+    {
+      "country": "South Africa",
+      "indiansInJail": 3,
+      "deathSentence": 0
+    },
+    {
+      "country": "Spain",
+      "indiansInJail": 49,
+      "deathSentence": 0
+    },
+    {
+      "country": "Sri Lanka",
+      "indiansInJail": 71,
+      "deathSentence": 0
+    },
+    {
+      "country": "Sudan",
+      "indiansInJail": 0,
+      "deathSentence": 0
+    },
+    {
+      "country": "Suriname",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Sweden",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    },
+    {
+      "country": "Tanzania",
+      "indiansInJail": 1,
+      "deathSentence": 1
+    },
+    {
+      "country": "Thailand",
+      "indiansInJail": 20,
+      "deathSentence": 0
+    },
+    {
+      "country": "Trinidad & Tobago",
+      "indiansInJail": 2,
+      "deathSentence": 0
+    },
+    {
+      "country": "Turkey",
+      "indiansInJail": 2,
+      "deathSentence": 0
+    },
+    {
+      "country": "United Arab Emirates",
+      "indiansInJail": 1423,
+      "deathSentence": 23
+    },
+    {
+      "country": "United Kingdom",
+      "indiansInJail": 374,
+      "deathSentence": 0
+    },
+    {
+      "country": "United States of America",
+      "indiansInJail": 257,
+      "deathSentence": 1
+    },
+    {
+      "country": "Vietnam",
+      "indiansInJail": 2,
+      "deathSentence": 0
+    },
+    {
+      "country": "Yemen",
+      "indiansInJail": 1,
+      "deathSentence": 0
+    }
+  ],
+  "giaBudget": [
+    {
+      "year": "2018-19",
+      "giaAllocatedCrore": 150.0
+    },
+    {
+      "year": "2019-20",
+      "giaAllocatedCrore": 140.0
+    },
+    {
+      "year": "2022-21",
+      "giaAllocatedCrore": 100.0
+    },
+    {
+      "year": "2021-22",
+      "giaAllocatedCrore": 145.0
+    },
+    {
+      "year": "2022-23",
+      "giaAllocatedCrore": 190.0
+    }
+  ],
+  "districtBeneficiaries": [
+    {
+      "district": "Hck Bangalore",
+      "SC": 36,
+      "ST": 5,
+      "women": 151,
+      "children": 0,
+      "inCustody": 85,
+      "total": 413
+    },
+    {
+      "district": "Hck Kalaburagi",
+      "SC": 5,
+      "ST": 1,
+      "women": 13,
+      "children": 0,
+      "inCustody": 4,
+      "total": 48
+    },
+    {
+      "district": "Hck Dharwad",
+      "SC": 8,
+      "ST": 0,
+      "women": 39,
+      "children": 0,
+      "inCustody": 0,
+      "total": 135
+    },
+    {
+      "district": "Bengaluru Urban",
+      "SC": 65,
+      "ST": 11,
+      "women": 248,
+      "children": 1,
+      "inCustody": 324,
+      "total": 1102
+    },
+    {
+      "district": "Bengaluru  Rural",
+      "SC": 8,
+      "ST": 6,
+      "women": 73,
+      "children": 3,
+      "inCustody": 38,
+      "total": 196
+    },
+    {
+      "district": "Bagalkote",
+      "SC": 1,
+      "ST": 0,
+      "women": 7,
+      "children": 0,
+      "inCustody": 2,
+      "total": 11
+    },
+    {
+      "district": "Ballari",
+      "SC": 6,
+      "ST": 6,
+      "women": 1,
+      "children": 1,
+      "inCustody": 1,
+      "total": 21
+    },
+    {
+      "district": "Belagavi",
+      "SC": 12,
+      "ST": 2,
+      "women": 32,
+      "children": 0,
+      "inCustody": 0,
+      "total": 89
+    },
+    {
+      "district": "Bidar",
+      "SC": 1,
+      "ST": 0,
+      "women": 0,
+      "children": 2,
+      "inCustody": 19,
+      "total": 26
+    },
+    {
+      "district": "Chamarajanagar",
+      "SC": 31,
+      "ST": 6,
+      "women": 9,
+      "children": 0,
+      "inCustody": 4,
+      "total": 53
+    },
+    {
+      "district": "Chikkaballalpur",
+      "SC": 63,
+      "ST": 42,
+      "women": 24,
+      "children": 61,
+      "inCustody": 24,
+      "total": 220
+    },
+    {
+      "district": "Chikkamagaluru",
+      "SC": 16,
+      "ST": 8,
+      "women": 43,
+      "children": 1,
+      "inCustody": 22,
+      "total": 113
+    },
+    {
+      "district": "Chitradurga",
+      "SC": 17,
+      "ST": 6,
+      "women": 21,
+      "children": 0,
+      "inCustody": 8,
+      "total": 77
+    },
+    {
+      "district": "D.K. Mangaluru",
+      "SC": 1,
+      "ST": 0,
+      "women": 20,
+      "children": 0,
+      "inCustody": 37,
+      "total": 74
+    },
+    {
+      "district": "Davanagere",
+      "SC": 1,
+      "ST": 1,
+      "women": 41,
+      "children": 11,
+      "inCustody": 31,
+      "total": 89
+    },
+    {
+      "district": "Dharwad",
+      "SC": 1,
+      "ST": 1,
+      "women": 50,
+      "children": 6,
+      "inCustody": 12,
+      "total": 108
+    },
+    {
+      "district": "Gadag",
+      "SC": 18,
+      "ST": 6,
+      "women": 20,
+      "children": 0,
+      "inCustody": 0,
+      "total": 82
+    },
+    {
+      "district": "Hassan",
+      "SC": 4,
+      "ST": 0,
+      "women": 7,
+      "children": 15,
+      "inCustody": 18,
+      "total": 70
+    },
+    {
+      "district": "Haveri",
+      "SC": 1,
+      "ST": 1,
+      "women": 3,
+      "children": 1,
+      "inCustody": 13,
+      "total": 40
+    },
+    {
+      "district": "Kalaburagi",
+      "SC": 0,
+      "ST": 0,
+      "women": 2,
+      "children": 1,
+      "inCustody": 3,
+      "total": 18
+    },
+    {
+      "district": "Kodagu - Madikeri",
+      "SC": 0,
+      "ST": 2,
+      "women": 22,
+      "children": 0,
+      "inCustody": 31,
+      "total": 59
+    },
+    {
+      "district": "Kolar",
+      "SC": 15,
+      "ST": 2,
+      "women": 20,
+      "children": 0,
+      "inCustody": 82,
+      "total": 138
+    },
+    {
+      "district": "Koppal",
+      "SC": 0,
+      "ST": 0,
+      "women": 0,
+      "children": 0,
+      "inCustody": 0,
+      "total": 0
+    },
+    {
+      "district": "Mandya",
+      "SC": 0,
+      "ST": 0,
+      "women": 1,
+      "children": 0,
+      "inCustody": 0,
+      "total": 33
+    },
+    {
+      "district": "Mysuru",
+      "SC": 37,
+      "ST": 17,
+      "women": 124,
+      "children": 7,
+      "inCustody": 136,
+      "total": 373
+    },
+    {
+      "district": "Raichuru",
+      "SC": 0,
+      "ST": 0,
+      "women": 0,
+      "children": 0,
+      "inCustody": 0,
+      "total": 0
+    },
+    {
+      "district": "Ramanagaram",
+      "SC": 10,
+      "ST": 6,
+      "women": 2,
+      "children": 0,
+      "inCustody": 66,
+      "total": 95
+    },
+    {
+      "district": "Shivamogga",
+      "SC": 22,
+      "ST": 5,
+      "women": 108,
+      "children": 14,
+      "inCustody": 43,
+      "total": 234
+    },
+    {
+      "district": "Tumakuru",
+      "SC": 12,
+      "ST": 12,
+      "women": 6,
+      "children": 0,
+      "inCustody": 0,
+      "total": 87
+    },
+    {
+      "district": "Udupi",
+      "SC": 1,
+      "ST": 0,
+      "women": 29,
+      "children": 4,
+      "inCustody": 41,
+      "total": 86
+    },
+    {
+      "district": "U.K. Karwar",
+      "SC": 2,
+      "ST": 0,
+      "women": 16,
+      "children": 3,
+      "inCustody": 31,
+      "total": 65
+    },
+    {
+      "district": "Vijayapura",
+      "SC": 1,
+      "ST": 0,
+      "women": 24,
+      "children": 0,
+      "inCustody": 53,
+      "total": 101
+    },
+    {
+      "district": "Yadgir",
+      "SC": 32,
+      "ST": 0,
+      "women": 0,
+      "children": 1,
+      "inCustody": 12,
+      "total": 45
+    }
+  ]
+}

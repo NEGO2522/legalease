@@ -6,7 +6,9 @@ import Lawyers from "./pages/Lawyers";
 import Profile from "./pages/Profile";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Documents from "./pages/Documents";
 import BottomNav from "./components/BottomNav";
+import { LanguageProvider } from "./context/LanguageContext";
 
 const Layout = () => {
   const navigate = useNavigate();
@@ -28,10 +30,8 @@ const Layout = () => {
     setChecked(true);
   }, [location.pathname]);
 
-  // Check hone tak kuch mat dikhao
   if (!checked) return null;
 
-  // Login/Signup pages — agar already logged in hai toh feed pe bhejo
   if (location.pathname === "/login" || location.pathname === "/signup") {
     if (loggedIn) return <Navigate to="/" />;
     return (
@@ -42,7 +42,6 @@ const Layout = () => {
     );
   }
 
-  // Protected pages — agar logged in nahi hai toh signup pe bhejo
   if (!loggedIn) return <Navigate to="/signup" />;
 
   return (
@@ -51,7 +50,7 @@ const Layout = () => {
       {location.pathname === "/askai" && <AskAI page={page} />}
       {location.pathname === "/lawyers" && <Lawyers page={page} />}
       {location.pathname === "/profile" && <Profile page={page} />}
-
+      {location.pathname === "/documents" && <Documents page={page} />}
       {!hideNav && <BottomNav page={page} setPage={setPage} />}
     </div>
   );
@@ -59,11 +58,13 @@ const Layout = () => {
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/*" element={<Layout />} />
-      </Routes>
-    </BrowserRouter>
+    <LanguageProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/*" element={<Layout />} />
+        </Routes>
+      </BrowserRouter>
+    </LanguageProvider>
   );
 }
 

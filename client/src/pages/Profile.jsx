@@ -2,8 +2,10 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Navbar from "../components/Navbar";
+import { useLanguage } from "../context/LanguageContext";
 
 const Profile = ({ page }) => {
+  const { t } = useLanguage();
   const [activeTab, setActiveTab] = useState("activity");
   const [userData, setUserData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -40,8 +42,8 @@ const Profile = ({ page }) => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
         </svg>
       ),
-      title: "Asked AI about Rent Agreement",
-      time: "2 hours ago",
+      title: t("activityItem1"),
+      time: t("hoursAgo"),
       tag: "Property Law",
     },
     {
@@ -50,8 +52,8 @@ const Profile = ({ page }) => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
         </svg>
       ),
-      title: "Generated Rent Agreement Document",
-      time: "Yesterday",
+      title: t("activityItem2"),
+      time: t("yesterday"),
       tag: "Document",
     },
     {
@@ -60,16 +62,22 @@ const Profile = ({ page }) => {
           <path strokeLinecap="round" strokeLinejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Connected with Adv. Rajesh Kumar",
-      time: "3 days ago",
+      title: t("activityItem3"),
+      time: t("daysAgo"),
       tag: "Family Law",
     },
   ];
 
   const savedItems = [
-    { title: "New Rental Laws 2024", tag: "Property Law" },
-    { title: "Digital Personal Data Protection Act", tag: "Cyber Law" },
-    { title: "Mutual Consent Divorce Procedure", tag: "Family Law" },
+    { title: t("savedItem1"), tag: "Property Law" },
+    { title: t("savedItem2"), tag: "Cyber Law" },
+    { title: t("savedItem3"), tag: "Family Law" },
+  ];
+
+  const stats = [
+    { num: userData?.questionsAsked ?? 0, label: t("questionsAsked") },
+    { num: userData?.docsGenerated ?? 0, label: t("docsGenerated") },
+    { num: userData?.lawyersConnected ?? 0, label: t("lawyersConnected") },
   ];
 
   return (
@@ -89,7 +97,7 @@ const Profile = ({ page }) => {
                 <h2 className="text-lg font-bold">{localUser.name || "User"}</h2>
                 <p className="text-gray-300 text-sm">{localUser.email || ""}</p>
                 <span className="bg-yellow-500/20 text-yellow-400 text-xs px-3 py-1 rounded-full mt-1 inline-block font-medium">
-                  {userData?.plan === "free" ? "Free Plan" : userData?.plan || "Free Plan"}
+                  {t("freePlan")}
                 </span>
               </div>
             </div>
@@ -99,14 +107,10 @@ const Profile = ({ page }) => {
               {loading ? (
                 <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin mx-auto"></div>
               ) : (
-                [
-                  { num: userData?.questionsAsked ?? 0, label: "Questions Asked" },
-                  { num: userData?.docsGenerated ?? 0, label: "Docs Generated" },
-                  { num: userData?.lawyersConnected ?? 0, label: "Lawyers Connected" },
-                ].map((stat) => (
-                  <div key={stat.label} className="text-center">
+                stats.map((stat) => (
+                  <div key={stat.label} className="text-center flex-1">
                     <p className="text-xl font-bold text-yellow-400">{stat.num}</p>
-                    <p className="text-gray-400 text-[10px] mt-0.5">{stat.label}</p>
+                    <p className="text-gray-400 text-[10px] mt-0.5 leading-tight">{stat.label}</p>
                   </div>
                 ))
               )}
@@ -132,14 +136,14 @@ const Profile = ({ page }) => {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                     </svg>
-                    Activity
+                    {t("activity")}
                   </>
                 ) : (
                   <>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
                     </svg>
-                    Saved
+                    {t("saved")}
                   </>
                 )}
               </button>
@@ -190,7 +194,7 @@ const Profile = ({ page }) => {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
             </svg>
-            Logout
+            {t("logout")}
           </button>
         </section>
 

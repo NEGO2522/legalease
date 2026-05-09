@@ -1,0 +1,551 @@
+[
+  {
+    "act": "IPC",
+    "section": "302",
+    "title": "Punishment for Murder",
+    "keywords": ["murder", "hatya", "kill", "marna", "death", "hत्या", "killing"],
+    "summary": "Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine.",
+    "punishment": "Death or Life Imprisonment + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "304",
+    "title": "Punishment for Culpable Homicide not amounting to Murder",
+    "keywords": ["culpable homicide", "accidental death", "unintentional killing", "manslaughter"],
+    "summary": "Culpable homicide not amounting to murder is punishable. If the act is done with intention, imprisonment up to 10 years. If without intention, up to 10 years or fine or both.",
+    "punishment": "Imprisonment up to 10 years or Fine or Both",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "307",
+    "title": "Attempt to Murder",
+    "keywords": ["attempt to murder", "hatyakaand", "attack", "attempted killing", "jaan lena"],
+    "summary": "Whoever does any act with intention or knowledge to cause death shall be punished with imprisonment up to 10 years and fine. If hurt is caused, imprisonment may extend to life.",
+    "punishment": "Imprisonment up to 10 years + Fine; Life imprisonment if hurt caused",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "354",
+    "title": "Assault or Criminal Force on Woman with Intent to Outrage her Modesty",
+    "keywords": ["eve teasing", "molestation", "mahila", "woman assault", "outrage modesty", "chhed chaad", "harassment woman"],
+    "summary": "Whoever assaults or uses criminal force on any woman intending to outrage or knowing it likely to outrage her modesty shall be punished.",
+    "punishment": "Imprisonment 1 to 5 years + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "375",
+    "title": "Rape",
+    "keywords": ["rape", "balatkar", "sexual assault", "balaatkaar", "yaun hinsa"],
+    "summary": "A man is said to commit rape if he has sexual intercourse with a woman against her will, without her consent, or under coercion, fraud, or intoxication.",
+    "punishment": "Rigorous Imprisonment not less than 7 years, may extend to Life + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "376",
+    "title": "Punishment for Rape",
+    "keywords": ["rape punishment", "balatkar saza", "sexual violence punishment"],
+    "summary": "Whoever commits rape shall be punished with rigorous imprisonment of not less than 10 years, extendable to life imprisonment, and fine.",
+    "punishment": "Rigorous Imprisonment minimum 10 years to Life + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "379",
+    "title": "Punishment for Theft",
+    "keywords": ["theft", "chori", "stealing", "churana", "stolen", "chor"],
+    "summary": "Whoever commits theft shall be punished with imprisonment up to 3 years or fine or both.",
+    "punishment": "Imprisonment up to 3 years or Fine or Both",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "380",
+    "title": "Theft in Dwelling House",
+    "keywords": ["house theft", "ghar mein chori", "home robbery", "burglary", "ghar tod"],
+    "summary": "Whoever commits theft in any building, tent, or vessel used as a human dwelling shall be punished with imprisonment up to 7 years and fine.",
+    "punishment": "Imprisonment up to 7 years + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "383",
+    "title": "Extortion",
+    "keywords": ["extortion", "zorzoree", "zulm", "dhamki", "blackmail", "threats for money", "paisa maangna dhamki se"],
+    "summary": "Whoever intentionally puts a person in fear of injury or harm and thereby dishonestly induces that person to deliver property commits extortion.",
+    "punishment": "Imprisonment up to 3 years or Fine or Both",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "390",
+    "title": "Robbery",
+    "keywords": ["robbery", "loot", "dacoity", "chhinaai", "snatch", "lootna"],
+    "summary": "In all robbery there is either theft or extortion. Theft is robbery when force or threat of force is used in commission of the theft.",
+    "punishment": "Rigorous Imprisonment up to 10 years + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "395",
+    "title": "Punishment for Dacoity",
+    "keywords": ["dacoity", "gang robbery", "daku", "gang loot", "organized crime"],
+    "summary": "Whoever commits dacoity (robbery committed by 5 or more persons) shall be punished with imprisonment for life or rigorous imprisonment up to 10 years and fine.",
+    "punishment": "Life Imprisonment or Rigorous Imprisonment up to 10 years + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "405",
+    "title": "Criminal Breach of Trust",
+    "keywords": ["breach of trust", "embezzlement", "fraud", "vishwaas toda", "paisa maar liya", "misappropriation"],
+    "summary": "Whoever being entrusted with property dishonestly misappropriates or converts it for his own use commits criminal breach of trust.",
+    "punishment": "Imprisonment up to 3 years or Fine or Both",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "415",
+    "title": "Cheating",
+    "keywords": ["cheating", "fraud", "dhoka", "thagi", "scam", "online fraud", "deceive", "deceiving"],
+    "summary": "Whoever by deceiving any person, fraudulently or dishonestly induces that person to deliver any property or to do or omit to do anything commits cheating.",
+    "punishment": "Imprisonment up to 1 year or Fine or Both",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "420",
+    "title": "Cheating and Dishonestly Inducing Delivery of Property",
+    "keywords": ["cheating", "420", "fraud", "dhoka", "scam", "thagi", "online scam", "paisa liya dhoka diya"],
+    "summary": "Whoever cheats and thereby dishonestly induces the person to deliver any property, or to make or alter valuable security commits an offence under section 420.",
+    "punishment": "Imprisonment up to 7 years + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "498A",
+    "title": "Husband or Relative of Husband of a Woman Subjecting her to Cruelty",
+    "keywords": ["498a", "domestic violence", "dowry harassment", "dahej", "pati ka atyachar", "sasural", "cruelty by husband"],
+    "summary": "Whoever being the husband or relative of the husband of a woman subjects such woman to cruelty shall be punished. Cruelty includes wilful conduct causing grave injury and harassment for dowry.",
+    "punishment": "Imprisonment up to 3 years + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "304B",
+    "title": "Dowry Death",
+    "keywords": ["dowry death", "dahej hatya", "bride burning", "dahej mrityu", "dowry killing"],
+    "summary": "Where the death of a woman is caused by burns, bodily injury or occurs under suspicious circumstances within 7 years of marriage and it is shown she was subjected to cruelty for dowry, it is dowry death.",
+    "punishment": "Imprisonment not less than 7 years, may extend to Life",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "323",
+    "title": "Punishment for Voluntarily Causing Hurt",
+    "keywords": ["hurt", "injury", "maarpeet", "fighting", "assault", "chot lagana", "pitaai"],
+    "summary": "Whoever voluntarily causes hurt to any person shall be punished with imprisonment up to 1 year or fine up to Rs. 1000 or both.",
+    "punishment": "Imprisonment up to 1 year or Fine up to Rs. 1000 or Both",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "324",
+    "title": "Voluntarily Causing Hurt by Dangerous Weapons",
+    "keywords": ["weapon attack", "knife attack", "chaku", "dangerous weapon", "hathiyar se maar", "sharp weapon"],
+    "summary": "Whoever voluntarily causes hurt by means of any instrument for shooting, stabbing, cutting, or by fire, heated substance, poison or explosive shall be punished.",
+    "punishment": "Imprisonment up to 3 years or Fine or Both",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "509",
+    "title": "Word, Gesture or Act Intended to Insult the Modesty of a Woman",
+    "keywords": ["insult woman", "obscene gesture", "comment on woman", "sexual comment", "eve teasing", "mahila bejzati"],
+    "summary": "Whoever intending to insult the modesty of any woman utters any word, makes any sound or gesture, or exhibits any object shall be punished.",
+    "punishment": "Imprisonment up to 3 years + Fine",
+    "category": "Criminal"
+  },
+  {
+    "act": "IPC",
+    "section": "503",
+    "title": "Criminal Intimidation",
+    "keywords": ["threat", "dhamki", "intimidation", "dar dikhana", "threaten", "harm threat"],
+    "summary": "Whoever threatens another with any injury to his person, reputation or property, or to the person or reputation of any one in whom that person is interested, to cause alarm or to do an act commits criminal intimidation.",
+    "punishment": "Imprisonment up to 2 years or Fine or Both",
+    "category": "Criminal"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "2(7)",
+    "title": "Definition of Consumer",
+    "keywords": ["consumer", "grahak", "buyer", "purchaser", "customer rights", "who is consumer"],
+    "summary": "A consumer is any person who buys goods or avails services for consideration. It does not include a person who obtains goods for resale or commercial purpose.",
+    "punishment": "N/A (Definitional provision)",
+    "category": "Consumer"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "34",
+    "title": "Jurisdiction of District Consumer Disputes Redressal Commission",
+    "keywords": ["consumer court", "complaint kahan kare", "district forum", "consumer complaint", "grahak court"],
+    "summary": "District Consumer Commission handles complaints where value of goods/services + compensation claimed does not exceed Rs. 1 crore.",
+    "punishment": "Compensation + Refund as ordered by Commission",
+    "category": "Consumer"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "35",
+    "title": "Manner of Filing Complaint",
+    "keywords": ["consumer complaint file", "how to complain", "complaint process", "shikayat kaise kare", "refund complaint"],
+    "summary": "A complaint can be filed by the consumer, consumer association, Central/State Government, or one or more consumers on behalf of many. Complaint can be filed online on edaakhil.nic.in.",
+    "punishment": "N/A (Procedural provision)",
+    "category": "Consumer"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "47",
+    "title": "Jurisdiction of State Consumer Disputes Redressal Commission",
+    "keywords": ["state consumer court", "state commission", "rajya consumer court", "1 crore complaint"],
+    "summary": "State Consumer Commission handles complaints where value exceeds Rs. 1 crore but does not exceed Rs. 10 crores.",
+    "punishment": "Compensation as ordered by State Commission",
+    "category": "Consumer"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "58",
+    "title": "Jurisdiction of National Consumer Disputes Redressal Commission",
+    "keywords": ["national consumer court", "NCDRC", "10 crore complaint", "national commission"],
+    "summary": "National Consumer Commission handles complaints where value exceeds Rs. 10 crores. Also handles appeals from State Commissions.",
+    "punishment": "Compensation as ordered by National Commission",
+    "category": "Consumer"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "2(47)",
+    "title": "Unfair Trade Practice",
+    "keywords": ["unfair trade", "false advertisement", "misleading ad", "wrong product", "quality issue", "defective product", "jhooth bolke becha"],
+    "summary": "Unfair trade practice means a trade practice which for the purpose of promoting sale adopts unfair method or deceptive practice including false representation of quality, quantity, grade, standard of goods/services.",
+    "punishment": "Refund + Compensation + Penalty up to Rs. 10 lakhs",
+    "category": "Consumer"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "86",
+    "title": "Penalty for Manufacture of Spurious Goods",
+    "keywords": ["fake product", "spurious goods", "nakli saman", "duplicate product", "counterfeit"],
+    "summary": "If a person manufactures or sells spurious goods which cause grievous hurt or death, they are liable for imprisonment and fine.",
+    "punishment": "Imprisonment up to 7 years + Fine up to Rs. 5 lakhs (death: Life imprisonment)",
+    "category": "Consumer"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "2(11)",
+    "title": "Deficiency in Service",
+    "keywords": ["service deficiency", "bad service", "service complaint", "kharab service", "service nahi mili", "refund service"],
+    "summary": "Deficiency means any fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance which is required to be maintained by or under any law for the time being in force.",
+    "punishment": "Refund + Compensation as ordered by Consumer Commission",
+    "category": "Consumer"
+  },
+  {
+    "act": "Consumer Protection Act 2019",
+    "section": "101",
+    "title": "E-Commerce Consumer Rights",
+    "keywords": ["online shopping", "amazon complaint", "flipkart complaint", "ecommerce refund", "online order complaint", "return policy"],
+    "summary": "E-commerce entities must display all mandatory information, provide return/refund mechanism, and cannot manipulate prices. Consumer has right to return goods and get full refund.",
+    "punishment": "Penalty as per Consumer Protection (E-Commerce) Rules 2020",
+    "category": "Consumer"
+  },
+  {
+    "act": "Transfer of Property Act 1882",
+    "section": "106",
+    "title": "Duration of Lease in Absence of Written Contract",
+    "keywords": ["lease", "rent agreement", "kiraya", "tenant rights", "notice period", "leave notice"],
+    "summary": "In absence of a written contract, a lease of immovable property for agricultural purposes is from year to year, and for any other purpose, it is from month to month. Either party must give 15 days notice to terminate.",
+    "punishment": "N/A (Civil provision — tenant can approach Civil Court)",
+    "category": "Property"
+  },
+  {
+    "act": "Transfer of Property Act 1882",
+    "section": "108",
+    "title": "Rights and Liabilities of Lessor and Lessee",
+    "keywords": ["landlord rights", "tenant rights", "kiraya rights", "makan malik", "kirayedar", "repair", "maintenance"],
+    "summary": "Landlord must disclose material defects in property. Tenant has right to undisturbed possession. Tenant must pay rent on time, keep property in good condition and not sublet without permission.",
+    "punishment": "N/A (Civil provision — approach Civil Court for disputes)",
+    "category": "Property"
+  },
+  {
+    "act": "Rent Control Act",
+    "section": "General",
+    "title": "Protection Against Eviction",
+    "keywords": ["eviction", "nikalo ghar se", "bedhakl", "illegal eviction", "forced to leave", "landlord threatening eviction"],
+    "summary": "A tenant cannot be evicted without valid legal grounds. Valid grounds include non-payment of rent, subletting without permission, misuse of premises, or landlord needing property for personal use. Landlord must give notice and approach Rent Controller.",
+    "punishment": "Illegal eviction: Landlord liable under IPC 441 (Criminal Trespass) + Tenant can claim damages",
+    "category": "Property"
+  },
+  {
+    "act": "Registration Act 1908",
+    "section": "17",
+    "title": "Compulsory Registration of Rent Agreement",
+    "keywords": ["rent agreement registration", "kiraya agreement", "stamp paper", "notary", "register agreement", "11 month agreement"],
+    "summary": "Lease/rent agreements for more than 11 months MUST be registered. 11-month agreements are popular because they avoid compulsory registration. Unregistered agreements above 11 months are not admissible as evidence in court.",
+    "punishment": "Unregistered lease is inadmissible in court as evidence",
+    "category": "Property"
+  },
+  {
+    "act": "Real Estate (Regulation and Development) Act 2016",
+    "section": "12",
+    "title": "Obligations of Promoter Regarding Veracity of Advertisement",
+    "keywords": ["RERA", "builder fraud", "builder ne dhoka diya", "flat nahi mila", "property fraud", "builder complaint"],
+    "summary": "If a builder makes a false statement in advertisement or prospectus, the buyer can withdraw from the project and get full refund with interest. Builder is liable for all losses.",
+    "punishment": "Refund + Interest + Compensation; Imprisonment up to 3 years for repeated violations",
+    "category": "Property"
+  },
+  {
+    "act": "Real Estate (Regulation and Development) Act 2016",
+    "section": "18",
+    "title": "Return of Amount and Compensation on Delayed Possession",
+    "keywords": ["delayed possession", "flat late mila", "builder delay", "RERA complaint", "possession delay", "construction delay"],
+    "summary": "If builder fails to complete construction or give possession by agreed date, buyer can withdraw and claim full refund with interest, or continue and claim interest for every month of delay.",
+    "punishment": "Full refund + Interest at SBI MCLR + 2% for delay period",
+    "category": "Property"
+  },
+  {
+    "act": "IPC",
+    "section": "441",
+    "title": "Criminal Trespass",
+    "keywords": ["trespass", "property encroachment", "zameen par kabja", "illegal entry", "property dispute", "enter illegally"],
+    "summary": "Whoever enters into or upon property in possession of another with intent to commit offence or to intimidate, insult or annoy any person in possession of such property commits criminal trespass.",
+    "punishment": "Imprisonment up to 3 months or Fine up to Rs. 500 or Both",
+    "category": "Property"
+  },
+  {
+    "act": "Benami Transactions (Prohibition) Act 1988",
+    "section": "3",
+    "title": "Prohibition of Benami Transactions",
+    "keywords": ["benami property", "benami transaction", "kisi aur ke naam property", "black money property", "illegal property"],
+    "summary": "No person shall enter into any benami transaction. Property held under benami transaction is liable to be confiscated by the Government.",
+    "punishment": "Rigorous Imprisonment 1 to 7 years + Fine up to 25% of fair market value of property",
+    "category": "Property"
+  },
+  {
+    "act": "Hindu Marriage Act 1955",
+    "section": "13",
+    "title": "Divorce",
+    "keywords": ["divorce", "talaq", "talaak", "separation", "alag hona", "marriage break", "vivah viched"],
+    "summary": "Grounds for divorce include: adultery, cruelty, desertion for 2+ years, conversion of religion, unsoundness of mind, leprosy, venereal disease, renunciation of world, or presumption of death.",
+    "punishment": "N/A (Civil provision — petition in Family Court)",
+    "category": "Family"
+  },
+  {
+    "act": "Hindu Marriage Act 1955",
+    "section": "13B",
+    "title": "Divorce by Mutual Consent",
+    "keywords": ["mutual consent divorce", "aapsi sahmat talaq", "mutual divorce", "both agree divorce", "consent divorce"],
+    "summary": "Both husband and wife can file for divorce by mutual consent if they have been living separately for 1 year or more. Court grants divorce after 6-18 months cooling off period.",
+    "punishment": "N/A (Civil provision — 6 to 18 months process in Family Court)",
+    "category": "Family"
+  },
+  {
+    "act": "Hindu Marriage Act 1955",
+    "section": "24",
+    "title": "Maintenance Pendente Lite and Expenses of Proceedings",
+    "keywords": ["maintenance during divorce", "interim maintenance", "guzara bhatta", "wife maintenance", "husband support during case"],
+    "summary": "Either spouse can claim maintenance during pendency of matrimonial proceedings. Court may order payment of expenses and monthly sum as it deems just.",
+    "punishment": "N/A (Civil provision — court orders maintenance amount)",
+    "category": "Family"
+  },
+  {
+    "act": "Hindu Adoption and Maintenance Act 1956",
+    "section": "18",
+    "title": "Maintenance of Wife",
+    "keywords": ["wife maintenance", "patni ka bharan poshan", "guzara bhatta", "alimony", "husband duty", "wife rights"],
+    "summary": "A Hindu wife is entitled to be maintained by her husband during her lifetime. She can claim maintenance if husband deserts her, treats her with cruelty, is suffering from virulent leprosy or keeps a concubine.",
+    "punishment": "N/A (Civil provision — wife can approach Family Court)",
+    "category": "Family"
+  },
+  {
+    "act": "Protection of Women from Domestic Violence Act 2005",
+    "section": "3",
+    "title": "Definition of Domestic Violence",
+    "keywords": ["domestic violence", "ghar mein maar pitai", "husband beating", "pati ki maar", "gharelu hinsa", "family violence"],
+    "summary": "Domestic violence includes physical, sexual, verbal, emotional and economic abuse by husband, family members or live-in partner against a woman.",
+    "punishment": "Protection Order + Residence Order + Monetary Relief + Compensation",
+    "category": "Family"
+  },
+  {
+    "act": "Protection of Women from Domestic Violence Act 2005",
+    "section": "12",
+    "title": "Application to Magistrate",
+    "keywords": ["domestic violence complaint", "DV case file", "magistrate complaint", "gharelu hinsa shikayat", "protection order"],
+    "summary": "An aggrieved woman, Protection Officer or any person on behalf of aggrieved can file application to Magistrate for relief under Domestic Violence Act.",
+    "punishment": "Protection Order + Residence rights + Monetary compensation up to Rs. 20 lakhs",
+    "category": "Family"
+  },
+  {
+    "act": "Hindu Succession Act 1956",
+    "section": "6",
+    "title": "Devolution of Interest in Coparcenary Property",
+    "keywords": ["property inheritance", "ancestral property", "pita ki sampatti", "daughter rights", "son rights", "family property", "wirasat"],
+    "summary": "After 2005 amendment, daughters have equal coparcenary rights in ancestral Hindu Undivided Family property, same as sons. Daughter's right exists even if father died before 2005.",
+    "punishment": "N/A (Civil provision — approach Civil Court for partition)",
+    "category": "Family"
+  },
+  {
+    "act": "Special Marriage Act 1954",
+    "section": "4",
+    "title": "Conditions for Marriage under Special Marriage Act",
+    "keywords": ["inter-religion marriage", "court marriage", "love marriage", "special marriage", "different religion shaadi"],
+    "summary": "Any two persons irrespective of religion can marry under Special Marriage Act. Conditions: neither party has living spouse, of sound mind, male 21 years, female 18 years.",
+    "punishment": "N/A (Civil provision — register at Marriage Registrar's office)",
+    "category": "Family"
+  },
+  {
+    "act": "Guardians and Wards Act 1890",
+    "section": "17",
+    "title": "Matters to be Considered by Court Appointing Guardian",
+    "keywords": ["child custody", "bachche ki custody", "custody after divorce", "who gets child", "guardian"],
+    "summary": "In matters of child custody, the welfare of the child is the paramount consideration. Court considers age, sex of child, wishes of parents, personal law of parents and child's own wishes if old enough.",
+    "punishment": "N/A (Civil provision — Family Court decides custody)",
+    "category": "Family"
+  },
+  {
+    "act": "Dowry Prohibition Act 1961",
+    "section": "3",
+    "title": "Penalty for Giving or Taking Dowry",
+    "keywords": ["dowry", "dahej", "dowry demand", "dahej maangna", "gifts at marriage", "dowry prohibition"],
+    "summary": "Giving or taking dowry is prohibited. Any property given as dowry belongs to the bride. Demanding dowry is a criminal offence.",
+    "punishment": "Imprisonment minimum 5 years + Fine minimum Rs. 15,000 or value of dowry (whichever higher)",
+    "category": "Family"
+  },
+  {
+    "act": "Muslim Women (Protection of Rights on Marriage) Act 2019",
+    "section": "3",
+    "title": "Triple Talaq Void and Illegal",
+    "keywords": ["triple talaq", "teen talaq", "instant talaq", "talaq talaq talaq", "muslim divorce"],
+    "summary": "Any pronouncement of talaq by a Muslim husband upon his wife, by words spoken or written or in electronic form, shall be void and illegal.",
+    "punishment": "Imprisonment up to 3 years + Fine",
+    "category": "Family"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "43",
+    "title": "Penalty for Damage to Computer System",
+    "keywords": ["hacking", "computer damage", "virus", "unauthorized access", "data theft", "computer crime"],
+    "summary": "If any person without permission accesses or downloads data from another's computer system, introduces virus, or causes damage, they are liable to pay compensation up to Rs. 1 crore.",
+    "punishment": "Compensation up to Rs. 1 crore to affected party",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "66",
+    "title": "Computer Related Offences",
+    "keywords": ["hacking", "data theft", "unauthorized computer access", "computer fraud", "cyber crime", "computer hack"],
+    "summary": "Whoever commits any act referred to in Section 43 dishonestly or fraudulently commits a computer related offence and shall be punished.",
+    "punishment": "Imprisonment up to 3 years or Fine up to Rs. 5 lakhs or Both",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "66C",
+    "title": "Identity Theft",
+    "keywords": ["identity theft", "identity fraud", "fake identity", "someone using my id", "aadhar misuse", "password steal", "OTP fraud"],
+    "summary": "Whoever fraudulently or dishonestly makes use of the electronic signature, password or any other unique identification feature of any other person commits identity theft.",
+    "punishment": "Imprisonment up to 3 years + Fine up to Rs. 1 lakh",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "66D",
+    "title": "Cheating by Personation Using Computer Resource",
+    "keywords": ["online fraud", "fake account", "impersonation online", "fake website", "phishing", "online dhoka", "UPI fraud", "payment fraud"],
+    "summary": "Whoever cheats by personation using communication device or computer resource (fake websites, UPI fraud, phishing) commits an offence.",
+    "punishment": "Imprisonment up to 3 years + Fine up to Rs. 1 lakh",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "66E",
+    "title": "Violation of Privacy",
+    "keywords": ["privacy violation", "voyeurism", "hidden camera", "intimate photos", "video without consent", "privacy breach", "spy camera"],
+    "summary": "Whoever intentionally captures, publishes or transmits image of private area of a person without their consent violates their privacy.",
+    "punishment": "Imprisonment up to 3 years or Fine up to Rs. 2 lakhs or Both",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "67",
+    "title": "Publishing Obscene Material in Electronic Form",
+    "keywords": ["obscene content", "porn", "obscene video", "obscene photo", "adult content sharing", "vulgar content online"],
+    "summary": "Whoever publishes or transmits obscene material in electronic form shall be punished.",
+    "punishment": "First conviction: Imprisonment up to 3 years + Fine up to Rs. 5 lakhs; Subsequent: up to 5 years + Rs. 10 lakhs",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "67A",
+    "title": "Publishing Sexually Explicit Material in Electronic Form",
+    "keywords": ["sexually explicit content", "sex video share", "intimate video leak", "MMS leak", "revenge porn"],
+    "summary": "Whoever publishes or transmits material containing sexually explicit act or conduct in electronic form shall be punished.",
+    "punishment": "First conviction: Imprisonment up to 5 years + Fine up to Rs. 10 lakhs",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "67B",
+    "title": "Publishing Child Sexually Abusive Material",
+    "keywords": ["child abuse online", "CSAM", "child porn", "minor abuse content"],
+    "summary": "Whoever publishes, transmits or browses child sexually abusive material in electronic form shall be punished.",
+    "punishment": "First conviction: Imprisonment up to 5 years + Fine up to Rs. 10 lakhs; Subsequent: up to 7 years + Rs. 10 lakhs",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "69A",
+    "title": "Power to Block Public Access of Information",
+    "keywords": ["website blocked", "content blocked", "internet ban", "social media ban"],
+    "summary": "Central Government may block access to any information generated, transmitted, received, stored in any computer resource in interest of sovereignty, integrity, defence or public order.",
+    "punishment": "Non-compliance: Imprisonment up to 7 years + Fine",
+    "category": "Cyber"
+  },
+  {
+    "act": "Information Technology Act 2000",
+    "section": "72",
+    "title": "Breach of Confidentiality and Privacy",
+    "keywords": ["data leak", "personal data shared", "confidential data breach", "info leak", "private data public", "data privacy"],
+    "summary": "If any person having secured access to electronic record, book, register, document, or information discloses such material to any other person, they commit breach of confidentiality.",
+    "punishment": "Imprisonment up to 2 years or Fine up to Rs. 1 lakh or Both",
+    "category": "Cyber"
+  },
+  {
+    "act": "IPC + IT Act",
+    "section": "IPC 507 + IT Act 66A",
+    "title": "Cyber Stalking and Online Harassment",
+    "keywords": ["cyber stalking", "online harassment", "social media harassment", "threatening messages", "online bully", "cyber bully", "follow online"],
+    "summary": "Sending threatening, abusive, or harassing messages online or repeatedly following/contacting someone online without consent is cyber stalking and punishable under IPC and IT Act.",
+    "punishment": "Imprisonment up to 3 years + Fine",
+    "category": "Cyber"
+  },
+  {
+    "act": "IPC",
+    "section": "153A",
+    "title": "Promoting Enmity Between Groups",
+    "keywords": ["hate speech", "communal content", "religious hatred online", "social media hate", "fake news communal"],
+    "summary": "Whoever promotes disharmony or feelings of enmity, hatred or ill-will between different religious, racial, language or regional groups by words, signs or visible representations commits an offence.",
+    "punishment": "Imprisonment up to 3 years or Fine or Both",
+    "category": "Cyber"
+  },
+  {
+    "act": "IPC",
+    "section": "499",
+    "title": "Defamation",
+    "keywords": ["defamation", "badnami", "false news about someone", "reputation damage", "online defamation", "social media defamation"],
+    "summary": "Whoever by words spoken or intended to be read, by signs, or visible representations makes or publishes any imputation concerning any person intending to harm their reputation commits defamation.",
+    "punishment": "Imprisonment up to 2 years or Fine or Both",
+    "category": "Cyber"
+  }
+]

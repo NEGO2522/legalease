@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useLanguage } from "../context/LanguageContext";
 
 const Navbar = ({ title = "LegalEase" }) => {
   const navigate = useNavigate();
+  const { language, setLanguage } = useLanguage();
   const [langOpen, setLangOpen] = useState(false);
-  const [selectedLang, setSelectedLang] = useState("English");
 
   const user = JSON.parse(localStorage.getItem("user")) || {};
   const initials = user.name
@@ -22,18 +23,21 @@ const Navbar = ({ title = "LegalEase" }) => {
     <>
       <header className="bg-white sticky top-0 z-50 border-b border-gray-200 px-5 py-4 flex justify-between items-center">
 
-        {/* Logo + Title */}
-        <div className="flex items-center gap-2">
+        {/* Logo + Title — click karo toh Feed pe jao */}
+        <button
+          onClick={() => navigate("/")}
+          className="flex items-center gap-2 active:scale-95 transition-all"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-[#031636]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
           </svg>
           <h1 className="text-xl font-bold text-[#031636]">{title}</h1>
-        </div>
+        </button>
 
         {/* Right Icons */}
         <div className="flex items-center gap-2">
 
-          {/* Language */}
+          {/* Language Button */}
           <button
             onClick={() => setLangOpen(true)}
             className="p-2 rounded-full hover:bg-gray-100 transition-all relative"
@@ -41,7 +45,6 @@ const Navbar = ({ title = "LegalEase" }) => {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
             </svg>
-            {/* Selected language dot */}
             <span className="absolute -bottom-0.5 -right-0.5 w-2 h-2 bg-yellow-500 rounded-full"></span>
           </button>
 
@@ -62,15 +65,12 @@ const Navbar = ({ title = "LegalEase" }) => {
           className="fixed inset-0 z-[100] flex items-end justify-center"
           onClick={() => setLangOpen(false)}
         >
-          {/* Backdrop */}
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
 
-          {/* Sheet */}
           <div
             className="relative w-full max-w-md bg-[#0d1f38] rounded-t-3xl px-6 pt-6 pb-10 z-10 animate-slideUp"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Handle */}
             <div className="w-10 h-1 bg-white/20 rounded-full mx-auto mb-6" />
 
             <p className="text-white/50 text-xs font-semibold uppercase tracking-widest mb-4">
@@ -79,12 +79,12 @@ const Navbar = ({ title = "LegalEase" }) => {
 
             <div className="flex flex-col gap-3">
               {languages.map((lang) => {
-                const active = selectedLang === lang.name;
+                const active = language === lang.name;
                 return (
                   <button
                     key={lang.name}
                     onClick={() => {
-                      setSelectedLang(lang.name);
+                      setLanguage(lang.name);
                       setLangOpen(false);
                     }}
                     className={`flex items-center justify-between px-5 py-4 rounded-2xl transition-all ${
@@ -106,11 +106,14 @@ const Navbar = ({ title = "LegalEase" }) => {
                 );
               })}
             </div>
+
+            <p className="text-white/30 text-xs text-center mt-5">
+              Current: {language}
+            </p>
           </div>
         </div>
       )}
 
-      {/* Slide up animation */}
       <style>{`
         @keyframes slideUp {
           from { transform: translateY(100%); opacity: 0; }

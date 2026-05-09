@@ -33,6 +33,8 @@ app.use("/api/auth", require("./routes/auth"));
 app.use("/api/feed", require("./routes/feed"));
 app.use("/api/lawyers", require("./routes/lawyers"));
 app.use("/api/user", require("./routes/user"));
+app.use("/api/askai", require("./routes/askai"));
+app.use("/api/legalstats", require("./routes/legalstats"));
 
 app.get("/", (req, res) => {
   res.json({ message: "LegalEase Backend Running!" });
