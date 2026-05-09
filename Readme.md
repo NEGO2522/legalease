@@ -4,7 +4,7 @@
 
 ## App Screenshots
 
-| Feed | Ask AI | Lawyers | Profile |
+| Feed | Lawyers | Profile |
 |------|--------|---------|---------|
 | ![Feed](screenshots/feed.png) | ![Lawyers](screenshots/lawyers.png) | ![Profile](screenshots/profile.png) |
 
