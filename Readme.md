@@ -6,7 +6,7 @@
 
 | Feed | Ask AI | Lawyers | Profile |
 |------|--------|---------|---------|
-| ![Feed](screenshots/feed.png) | ![Ask AI](screenshots/time.png) | ![Lawyers](screenshots/lawyers.png) | ![Profile](screenshots/profile.png) |
+| ![Feed](screenshots/feed.png) | ![Lawyers](screenshots/lawyers.png) | ![Profile](screenshots/profile.png) |
 
 ## Problem Statement
 
