@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Navbar from "../components/Navbar";
 
-const filters = ["All Lawyers", "Criminal", "Corporate", "Family", "Property"];
+const filters = ["All Lawyers", "Criminal", "Corporate", "Family", "Property", "Cyber", "Consumer"];
 
 const Lawyers = ({ page }) => {
   const [activeFilter, setActiveFilter] = useState("All Lawyers");
@@ -70,16 +70,8 @@ const Lawyers = ({ page }) => {
 
                   {/* Avatar */}
                   <div className="relative shrink-0">
-                    <div className="w-20 h-20 rounded-lg bg-[#031636] flex items-center justify-center ring-2 ring-yellow-200 overflow-hidden">
-                      {lawyer.image ? (
-                        <img
-                          src={lawyer.image}
-                          alt={lawyer.name}
-                          className="w-full h-full object-cover"
-                        />
-                      ) : (
-                        <span className="text-white text-xl font-bold">{lawyer.initials}</span>
-                      )}
+                    <div className="w-20 h-20 rounded-lg bg-[#031636] flex items-center justify-center ring-2 ring-yellow-200">
+                      <span className="text-white text-xl font-bold">{lawyer.initials}</span>
                     </div>
                     {lawyer.online && (
                       <div className="absolute -bottom-1 -right-1 w-4 h-4 rounded-full bg-green-500 border-2 border-white"></div>
@@ -91,7 +83,7 @@ const Lawyers = ({ page }) => {
                     <div>
                       <h3 className="text-base font-bold text-[#031636] mb-1">{lawyer.name}</h3>
                       <p className="text-sm text-gray-500 flex items-center gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
                           <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                         </svg>
                         {lawyer.specialty}

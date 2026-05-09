@@ -7,6 +7,7 @@ const UserSchema = new mongoose.Schema({
   plan: { type: String, default: "free" },
   questionsAsked: { type: Number, default: 0 },
   docsGenerated: { type: Number, default: 0 },
+  lawyersConnected: { type: Number, default: 0 },
 }, { timestamps: true });
 
 module.exports = mongoose.model("User", UserSchema);

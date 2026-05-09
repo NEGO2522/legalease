@@ -1,8 +1,37 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 import Navbar from "../components/Navbar";
 
-const Profile = ({ setPage, page }) => {
+const Profile = ({ page }) => {
   const [activeTab, setActiveTab] = useState("activity");
+  const [userData, setUserData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
+
+  const localUser = JSON.parse(localStorage.getItem("user")) || {};
+  const initials = localUser.name
+    ? localUser.name.split(" ").map((n) => n[0]).join("").toUpperCase().slice(0, 2)
+    : "?";
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    axios
+      .get("http://localhost:5000/api/user/me", {
+        headers: { Authorization: `Bearer ${token}` },
+      })
+      .then((res) => {
+        setUserData(res.data);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem("token");
+    localStorage.removeItem("user");
+    navigate("/signup");
+  };
 
   const activityItems = [
     {
@@ -45,10 +74,7 @@ const Profile = ({ setPage, page }) => {
 
   return (
     <div className="flex flex-col min-h-screen bg-[#fbf8fc]">
-
-      {/* Header */}
-      <Navbar title="LegalEase" showSettings />
-
+      <Navbar />
       <main className="max-w-md mx-auto w-full pb-24">
 
         {/* Profile Card */}
@@ -57,28 +83,33 @@ const Profile = ({ setPage, page }) => {
             <div className="absolute top-0 right-0 w-32 h-32 bg-yellow-500/10 rounded-full blur-2xl"></div>
             <div className="flex items-center gap-4 relative z-10">
               <div className="w-16 h-16 rounded-full bg-yellow-500 flex items-center justify-center text-[#031636] font-black text-2xl ring-4 ring-yellow-500/30">
-                KJ
+                {initials}
               </div>
               <div>
-                <h2 className="text-lg font-bold">Kshitij Jain</h2>
-                <p className="text-gray-300 text-sm">kshitij@example.com</p>
+                <h2 className="text-lg font-bold">{localUser.name || "User"}</h2>
+                <p className="text-gray-300 text-sm">{localUser.email || ""}</p>
                 <span className="bg-yellow-500/20 text-yellow-400 text-xs px-3 py-1 rounded-full mt-1 inline-block font-medium">
-                  Free Plan
+                  {userData?.plan === "free" ? "Free Plan" : userData?.plan || "Free Plan"}
                 </span>
               </div>
             </div>
+
             {/* Stats */}
             <div className="flex gap-6 mt-6 pt-5 border-t border-white/10 relative z-10">
-              {[
-                { num: "12", label: "Questions Asked" },
-                { num: "3", label: "Docs Generated" },
-                { num: "1", label: "Lawyer Connected" },
-              ].map((stat) => (
-                <div key={stat.label} className="text-center">
-                  <p className="text-xl font-bold text-yellow-400">{stat.num}</p>
-                  <p className="text-gray-400 text-[10px] mt-0.5">{stat.label}</p>
-                </div>
-              ))}
+              {loading ? (
+                <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin mx-auto"></div>
+              ) : (
+                [
+                  { num: userData?.questionsAsked ?? 0, label: "Questions Asked" },
+                  { num: userData?.docsGenerated ?? 0, label: "Docs Generated" },
+                  { num: userData?.lawyersConnected ?? 0, label: "Lawyers Connected" },
+                ].map((stat) => (
+                  <div key={stat.label} className="text-center">
+                    <p className="text-xl font-bold text-yellow-400">{stat.num}</p>
+                    <p className="text-gray-400 text-[10px] mt-0.5">{stat.label}</p>
+                  </div>
+                ))
+              )}
             </div>
           </div>
         </section>
@@ -152,7 +183,10 @@ const Profile = ({ setPage, page }) => {
 
         {/* Logout */}
         <section className="px-5 mt-6">
-          <button className="w-full border-2 border-red-100 text-red-400 py-3.5 rounded-xl font-semibold text-sm hover:bg-red-50 transition-all flex items-center justify-center gap-2">
+          <button
+            onClick={handleLogout}
+            className="w-full border-2 border-red-100 text-red-400 py-3.5 rounded-xl font-semibold text-sm hover:bg-red-50 transition-all flex items-center justify-center gap-2"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
             </svg>
