@@ -1,21 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const mongoose = require("mongoose");
-
-// ─── Models ───────────────────────────────────────────────────────────────────
-
-const LegalData = mongoose.model(
-  "LegalData",
-  new mongoose.Schema({
-    act: String,
-    section: String,
-    title: String,
-    keywords: [String],
-    summary: String,
-    punishment: String,
-    category: String,
-  })
-);
+const User = require("../models/User");
 
 const LegalStats = mongoose.model(
   "LegalStats",
@@ -27,57 +13,68 @@ const LegalStats = mongoose.model(
   })
 );
 
-// ─── Keyword extractor ────────────────────────────────────────────────────────
+async function askGemini(question, language) {
+  try {
+    const apiKey = process.env.GEMINI_API_KEY;
+    console.log("Gemini key found:", !!apiKey);
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
-function extractKeywords(question) {
-  const stopWords = new Set([
-    "kya", "hai", "mera", "meri", "mere", "ko", "ne", "ka", "ki", "ke",
-    "the", "is", "a", "an", "of", "in", "on", "to", "for", "my", "me",
-    "what", "how", "can", "i", "do", "did", "was", "are", "has",
-  ]);
-  return question
-    .toLowerCase()
-    .replace(/[^a-z0-9\s]/gi, " ")
-    .split(/\s+/)
-    .filter(w => w.length > 2 && !stopWords.has(w));
+    const systemPrompt = language === "Hindi"
+      ? `Aap ek Indian legal assistant hain. User ke sawal ka jawab Hindi mein dijiye.
+Sirf Indian law ke hisaab se jawab dijiye — IPC, CrPC, Consumer Protection Act, IT Act, etc.
+Jawab mein yeh include karein:
+1. Kaun sa kanoon apply hota hai (Act + Section)
+2. User ke adhikar kya hain
+3. Kya action le sakte hain
+4. Punishment kya hai
+Jawab concise aur clear rakhen. Maximum 300 words.
+Disclaimer: Yeh sirf awareness ke liye hai, registered vakeel se salah zaroor len.`
+      : `You are an Indian legal assistant. Answer based on Indian law only.
+Include:
+1. Which law applies (Act + Section number)
+2. What are the user's rights
+3. What action they can take
+4. What is the punishment for the offender
+Be concise and clear. Maximum 300 words.
+Disclaimer: This is for awareness only. Please consult a registered lawyer.`;
+
+    const response = await fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: `${systemPrompt}\n\nUser question: ${question}` }] }]
+      })
+    });
+
+    const data = await response.json();
+    console.log("Gemini raw response:", JSON.stringify(data).slice(0, 200));
+    return data?.candidates?.[0]?.content?.parts?.[0]?.text || null;
+  } catch (err) {
+    console.error("Gemini error:", err.message);
+    return null;
+  }
 }
-
-// ─── Stats keyword detector ───────────────────────────────────────────────────
 
 function detectStatsIntent(question) {
   const q = question.toLowerCase();
-
-  if (q.match(/foreign|abroad|jail|prison|country|deported/))
-    return "indiansInForeignJails";
-
-  if (q.match(/budget|gia|nalsa|fund|grant|allocat/))
-    return "giaBudget";
-
-  if (q.match(/state|rajasthan|karnataka|maharashtra|delhi|gujarat|bihar|statewise/))
-    return "stateWiseLegalAid";
-
-  if (q.match(/district|bangalore|jaipur|beneficiar|sc|st|women|children|custody/))
-    return "districtBeneficiaries";
-
+  if (q.match(/foreign|abroad|jail|prison|country|deported/)) return "indiansInForeignJails";
+  if (q.match(/budget|gia|nalsa|fund|grant|allocat/)) return "giaBudget";
+  if (q.match(/state|rajasthan|karnataka|maharashtra|delhi|gujarat|bihar|statewise/)) return "stateWiseLegalAid";
+  if (q.match(/district|bangalore|jaipur|beneficiar|sc|st|women|children|custody/)) return "districtBeneficiaries";
   return null;
 }
 
-// ─── POST /api/askai ──────────────────────────────────────────────────────────
-
 router.post("/", async (req, res) => {
   try {
-    const { question, language = "English" } = req.body;
+    const { question, language = "English", userId } = req.body;
     if (!question) return res.status(400).json({ error: "Question is required" });
 
-    const keywords = extractKeywords(question);
     const statsCategory = detectStatsIntent(question);
 
-    // ── 1. Search legalData (laws/acts) ──
-    const lawResults = await LegalData.find({
-      keywords: { $in: keywords },
-    }).limit(5).lean();
+    // Gemini se answer lo
+    const aiAnswer = await askGemini(question, language);
 
-    // ── 2. Search legalStats if stats-related question ──
+    // Govt stats fetch karo
     let statsResults = [];
     let statsSource = "";
     if (statsCategory) {
@@ -86,15 +83,17 @@ router.post("/", async (req, res) => {
       statsSource = statsDocs[0]?.source || "";
     }
 
-    // ── 3. Build response ──
-    if (lawResults.length === 0 && statsResults.length === 0) {
+    // questionsAsked +1
+    if (userId) {
+      await User.findByIdAndUpdate(userId, { $inc: { questionsAsked: 1 } });
+    }
+
+    if (!aiAnswer && statsResults.length === 0) {
       return res.json({
         found: false,
-        message:
-          language === "Hindi"
-            ? "Maafi chahta hoon, is sawaal ka jawab mere paas abhi nahi hai. Kisi vakeel se salah lein."
-            : "Sorry, I couldn't find relevant legal information. Please consult a lawyer.",
-        results: [],
+        message: language === "Hindi"
+          ? "Maafi chahta hoon, jawab nahi mila. Kisi vakeel se salah lein."
+          : "Sorry, I couldn't find relevant legal information. Please consult a lawyer.",
         stats: [],
       });
     }
@@ -102,15 +101,7 @@ router.post("/", async (req, res) => {
     res.json({
       found: true,
       question,
-      keywords,
-      results: lawResults.map(r => ({
-        act: r.act,
-        section: r.section,
-        title: r.title,
-        summary: r.summary,
-        punishment: r.punishment,
-        category: r.category,
-      })),
+      aiAnswer,
       stats: statsResults,
       statsCategory,
       statsSource,
@@ -120,8 +111,6 @@ router.post("/", async (req, res) => {
     res.status(500).json({ error: "Server error", details: err.message });
   }
 });
-
-// ─── GET /api/askai/stats/:category ──────────────────────────────────────────
 
 router.get("/stats/:category", async (req, res) => {
   try {
